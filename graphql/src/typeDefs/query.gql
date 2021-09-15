@@ -1,0 +1,13 @@
+type Query {
+  books: [Book]
+}
+
+"""
+本のデータ
+"""
+type Book {
+  """タイトル"""
+  title: String
+  """著者"""
+  author: String
+}
